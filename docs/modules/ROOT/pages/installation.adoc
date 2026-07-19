@@ -1,0 +1,64 @@
+= Installation and Setup
+
+== Prerequisites
+
+Install the following software:
+
+* Python 3.11 or newer
+* Node.js
+* npm
+* Git
+
+== Clone the Repository
+
+[source,bash]
+----
+git clone https://github.com/Pbaraj/Lagovia-Train-Tracker.git
+cd Lagovia-Train-Tracker
+----
+
+== Backend Setup
+
+Open the backend directory:
+
+[source,bash]
+----
+cd backend
+----
+
+Install the Python dependencies:
+
+[source,bash]
+----
+pip install -r requirements.txt
+----
+
+Start the backend server:
+
+[source,bash]
+----
+uvicorn app.main:app --reload
+----
+
+== Frontend Setup
+
+Open another terminal and navigate to the frontend directory:
+
+[source,bash]
+----
+cd frontend
+----
+
+Install the frontend dependencies:
+
+[source,bash]
+----
+npm install
+----
+
+Start the frontend development server:
+
+[source,bash]
+----
+npm run dev
+----
