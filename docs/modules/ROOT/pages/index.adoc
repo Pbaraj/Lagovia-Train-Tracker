@@ -1,0 +1,28 @@
+= Lagovia Train Tracker
+
+Lagovia Train Tracker is a full-stack web application that displays upcoming train departures for matching Belgian railway stations.
+
+== Main Features
+
+* Search for railway stations using part of a station name
+* Display upcoming train departures
+* Show train numbers and destinations
+* Display scheduled departure times
+* Show train delays
+* Retrieve railway information from the iRail API
+
+== Technologies
+
+=== Backend
+
+* Python
+* FastAPI
+* Uvicorn
+* pytest
+
+=== Frontend
+
+* React
+* Vite
+* JavaScript
+* CSS
