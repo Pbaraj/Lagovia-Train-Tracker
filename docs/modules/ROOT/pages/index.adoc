@@ -26,3 +26,9 @@ Lagovia Train Tracker is a full-stack web application that displays upcoming tra
 * Vite
 * JavaScript
 * CSS
+
+== Documentation Status
+
+This project documentation is generated from the GitHub repository using Antora.
+
+The documentation includes the project overview, main features, technologies, and installation instructions.
